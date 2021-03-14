@@ -15,6 +15,12 @@
 		ACF2D16E25FCABF1003C51E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF2D16C25FCABF1003C51E7 /* LaunchScreen.storyboard */; };
 		ACF2D17925FCABF1003C51E7 /* AutoLayoutNotCode2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2D17825FCABF1003C51E7 /* AutoLayoutNotCode2Tests.swift */; };
 		ACF2D18425FCABF1003C51E7 /* AutoLayoutNotCode2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2D18325FCABF1003C51E7 /* AutoLayoutNotCode2UITests.swift */; };
+		ACF2D19525FDB927003C51E7 /* UIStackViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2D19425FDB927003C51E7 /* UIStackViewExtension.swift */; };
+		ACF2D19F25FDCA4B003C51E7 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF2D19E25FDCA4B003C51E7 /* a.png */; };
+		ACF2D1A725FDEF0B003C51E7 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2D1A625FDEF0B003C51E7 /* UILabelExtension.swift */; };
+		ACF2D1AC25FDF252003C51E7 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2D1AB25FDF252003C51E7 /* UITextFieldExtension.swift */; };
+		ACF2D1B125FDF70A003C51E7 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2D1B025FDF70A003C51E7 /* UIColorExtension.swift */; };
+		ACF2D1D825FDFC7C003C51E7 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2D1D725FDFC7C003C51E7 /* UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		ACF2D17F25FCABF1003C51E7 /* AutoLayoutNotCode2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutNotCode2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF2D18325FCABF1003C51E7 /* AutoLayoutNotCode2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutNotCode2UITests.swift; sourceTree = "<group>"; };
 		ACF2D18525FCABF1003C51E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF2D19425FDB927003C51E7 /* UIStackViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewExtension.swift; sourceTree = "<group>"; };
+		ACF2D19E25FDCA4B003C51E7 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = a.png; path = ../../../../Desktop/a.png; sourceTree = "<group>"; };
+		ACF2D1A625FDEF0B003C51E7 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		ACF2D1AB25FDF252003C51E7 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		ACF2D1B025FDF70A003C51E7 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		ACF2D1D725FDFC7C003C51E7 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +111,18 @@
 		ACF2D16025FCABEE003C51E7 /* AutoLayoutNotCode2 */ = {
 			isa = PBXGroup;
 			children = (
+				ACF2D1B525FDF715003C51E7 /* Extension */,
 				ACF2D16125FCABEE003C51E7 /* AppDelegate.swift */,
 				ACF2D16325FCABEE003C51E7 /* SceneDelegate.swift */,
 				ACF2D16525FCABEE003C51E7 /* ViewController.swift */,
 				ACF2D16725FCABEE003C51E7 /* Main.storyboard */,
+				ACF2D1A625FDEF0B003C51E7 /* UILabelExtension.swift */,
+				ACF2D1D725FDFC7C003C51E7 /* UIButtonExtension.swift */,
+				ACF2D19425FDB927003C51E7 /* UIStackViewExtension.swift */,
+				ACF2D1B025FDF70A003C51E7 /* UIColorExtension.swift */,
+				ACF2D1AB25FDF252003C51E7 /* UITextFieldExtension.swift */,
 				ACF2D16A25FCABF1003C51E7 /* Assets.xcassets */,
+				ACF2D19E25FDCA4B003C51E7 /* a.png */,
 				ACF2D16C25FCABF1003C51E7 /* LaunchScreen.storyboard */,
 				ACF2D16F25FCABF1003C51E7 /* Info.plist */,
 			);
@@ -126,6 +145,13 @@
 				ACF2D18525FCABF1003C51E7 /* Info.plist */,
 			);
 			path = AutoLayoutNotCode2UITests;
+			sourceTree = "<group>";
+		};
+		ACF2D1B525FDF715003C51E7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +259,7 @@
 			files = (
 				ACF2D16E25FCABF1003C51E7 /* LaunchScreen.storyboard in Resources */,
 				ACF2D16B25FCABF1003C51E7 /* Assets.xcassets in Resources */,
+				ACF2D19F25FDCA4B003C51E7 /* a.png in Resources */,
 				ACF2D16925FCABEE003C51E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF2D16625FCABEE003C51E7 /* ViewController.swift in Sources */,
+				ACF2D1D825FDFC7C003C51E7 /* UIButtonExtension.swift in Sources */,
+				ACF2D1B125FDF70A003C51E7 /* UIColorExtension.swift in Sources */,
+				ACF2D1AC25FDF252003C51E7 /* UITextFieldExtension.swift in Sources */,
+				ACF2D19525FDB927003C51E7 /* UIStackViewExtension.swift in Sources */,
+				ACF2D1A725FDEF0B003C51E7 /* UILabelExtension.swift in Sources */,
 				ACF2D16225FCABEE003C51E7 /* AppDelegate.swift in Sources */,
 				ACF2D16425FCABEE003C51E7 /* SceneDelegate.swift in Sources */,
 			);
